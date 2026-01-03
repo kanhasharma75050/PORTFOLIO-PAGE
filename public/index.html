@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kanha Sharma- Portfolio</title>
+<!-- Include EmailJS SDK -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+<script>
+    (function() {
+      emailjs.init("ZL5rpHKaYtmVlCJfA"); // <-- Replace with your EmailJS public key
+    })();
+  </script> -->
+<!-- AOS CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+  
+</script>
+</head>
+<body>
+<!-- Welcome Screen -->
+ <!-- Greeting Window -->
+
+<div id="welcome-screen">
+  <div class="id-card">
+    <div class="id-image-wrapper">
+  <img src="kanha.jpg" alt="Profile" class="id-img">
+</div>
+
+    <h2 class="id-name">Kanha Sharma</h2>
+    <p class="id-course">B.Tech in Computer Science | 2022-2026</p>
+<P class="typing-text"> Full-stack developer | MERN Enthusis | Problem solver</P>
+    <div class="id-skills">
+      <span>⚡ React</span>
+      <span>⚡ Node.js</span>
+      <span>⚡ MongoDB</span>
+       <span>⚡Express.js </span>
+    </div>
+
+    <p class="id-tagline">Welcome to My Page 🚀</p>
+    <!-- Dark/Light Mode Toggle -->
+<button id="theme-toggle" style="margin-top: 1rem; padding: 8px 16px; border-radius: 6px; border: none; cursor: pointer;">
+  Toggle Light/Dark
+</button>
+<div class="id-socials">
+  <a href="https://www.linkedin.com/in/kanha-sharma-321092255/" target="_blank" title="LinkedIn">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn"> <span>LinkedIn</span>
+  </a>
+  <a href="https://github.com/kanhasharma75050" target="_blank" title="GitHub">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub"> <span>GitHub</span>
+  </a>
+  <a href="mailto:ksharma66972@gmail.com" title="Email">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Email"> <span>Email</span>
+  </a>
+</div>
+
+
+
+<button id="get-started-btn">Get Started</button>
+
+  </div>
+</div>
+
+
+<!-- Main Portfolio -->
+<div id="portfolio-content" style="display:none;">
+  <!-- Your existing portfolio code (navbar, hero, sections, etc.) goes here -->
+
+
+<!-- Navbar -->
+<nav>
+  <div class="logo">
+    <img src="kanha.jpg" alt="My Photo" class="nav-profile">
+    Kanha sharma
+  </div>
+
+  <div class="hamburger" id="hamburger">&#9776;</div>
+
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#achievements">Achievements</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+
+
+
+<header class="hero" id="hero">
+  <div id="particles-js"></div>
+  <div class="hero-content">
+    <h1>Hello, I'm <span>kanha Sharma</span></h1>
+    <p>Full Stack Developer | JavaScript | Node.js | Express.js</p>
+  </div>
+</header>
+
+<!-- About Section -->
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>I am a Full Stack Developer with hands-on-experinece in building modern, responsive, and interactive MERN stack applications,REST APIs,secure authentication using JWT & bcrypt, and responsive UI using React.js and Strong foundation in DSA , OOP,and Database management. Skilled in JavaScript, Node.js, Express.js, React.js, CSS, and MongoDB.Passionate about developing scable,user-focused web applications.</p>
+</section>
+
+
+<div class="flip-card" data-aos="zoom-in">
+  <!-- Project Card Content -->
+</div>
+
+
+<!-- Skills Section -->
+<!-- Skills Section -->
+<section id="skills" class="section">
+  <h2>Skills</h2>
+
+  <!-- Frontend -->
+  <div class="skill-group">
+    <h3>Frontend</h3>
+    <div class="skill">
+      <span>React</span>
+      <div class="skill-bar"><div style="--width: 90%"></div></div>
+    </div>
+    <div class="skill">
+      <span>HTML</span>
+      <div class="skill-bar"><div style="--width: 95%"></div></div>
+    </div>
+    <div class="skill">
+      <span>CSS</span>
+      <div class="skill-bar"><div style="--width: 90%"></div></div>
+    </div>
+    <div class="skill">
+      <span>JavaScript</span>
+      <div class="skill-bar"><div style="--width: 85%"></div></div>
+    </div>
+    <div class="skill">
+      <span>Tailwind CSS</span>
+      <div class="skill-bar"><div style="--width: 80%"></div></div>
+    </div>
+  </div>
+
+  <!-- Backend -->
+  <div class="skill-group">
+    <h3>Backend</h3>
+    <div class="skill">
+      <span>Node.js</span>
+      <div class="skill-bar"><div style="--width: 85%"></div></div>
+    </div>
+    <div class="skill">
+      <span>Express.js</span>
+      <div class="skill-bar"><div style="--width: 80%"></div></div>
+    </div>
+    <div class="skill">
+      <span>RESTful APIs</span>
+      <div class="skill-bar"><div style="--width: 80%"></div></div>
+    </div>
+  </div>
+
+  <!-- Database -->
+  <div class="skill-group">
+    <h3>Database</h3>
+    <div class="skill">
+      <span>MongoDB</span>
+      <div class="skill-bar"><div style="--width: 75%"></div></div>
+    </div>
+    <div class="skill">
+      <span>MySQL</span>
+      <div class="skill-bar"><div style="--width: 70%"></div></div>
+    </div>
+  </div>
+
+  <!-- Tools/Other -->
+  <div class="skill-group">
+    <h3>Tools / Other</h3>
+    <div class="skill">
+      <span>Git</span>
+      <div class="skill-bar"><div style="--width: 85%"></div></div>
+    </div>
+    <div class="skill">
+      <span>GitHub</span>
+      <div class="skill-bar"><div style="--width: 90%"></div></div>
+    </div>
+    <div class="skill">
+      <span>Postman</span>
+      <div class="skill-bar"><div style="--width: 80%"></div></div>
+    </div>
+    <div class="skill">
+      <span>Docker</span>
+      <div class="skill-bar"><div style="--width: 65%"></div></div>
+    </div>
+    <span>JWT</span>
+      <div class="skill-bar"><div style="--width: 65%"></div></div>
+    </div>
+
+  </div>
+
+  <!-- Currently Learning -->
+  <div class="currently-learning">
+    <h3>Currently Learning</h3>
+    <p>TypeScript, Next.js, GraphQL, AWS</p>
+  </div>
+</section>
+
+
+
+<!-- Achievements Section -->
+<section id="achievements" class="section">
+  <h2>Achievements</h2>
+  <ul class="achievements">
+    <li>Built and deployed multiple full stack projects.</li>
+    <li>Completed advanced JavaScript & Node.js courses.</li>
+    <li>Certified in Full-stack Development </li>
+    <li> Certified in Python Web Developer by Infosys .</li>
+  </ul>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="section">
+  <h2>🚀 My Projects</h2>
+  <div class="projects-container">
+
+    <!-- Project 1 -->
+    <div class="project-card" onclick="openModal(1)">
+      <img src="airbnb.png.png" alt="Airbnb Clone">
+      <h3>Airbnb Clone</h3>
+      <p class="tech-stack">React | Node.js | Express | MongoDB</p>
+      <p class="short-desc">Booking & authentication system for property rentals.</p>
+      <div class="project-links">
+        <a href="https://github.com/yourname/airbnb-clone" target="_blank">GitHub</a>
+        <a href="https://airbnb-clone-demo.com" target="_blank">Live Demo</a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card" onclick="openModal(2)">
+      <img src="ecommerce.avif" alt="E-Commerce App">
+      <h3>E-Commerce App</h3>
+      <p class="tech-stack">React | Node.js | Express | MongoDB | Stripe</p>
+      <p class="short-desc">Full-stack app with cart, payment integration & admin dashboard.</p>
+      <div class="project-links">
+        <a href="https://github.com/yourname/ecommerce" target="_blank">GitHub</a>
+        <a href="https://ecommerce-demo.com" target="_blank">Live Demo</a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card" onclick="openModal(3)">
+      <img src="portfolio.png" alt="Portfolio Website">
+      <h3>Portfolio Website</h3>
+      <p class="tech-stack">HTML | CSS | JS | Node.js | Express</p>
+      <p class="short-desc">Personal portfolio showcasing skills, projects, and contact info.</p>
+      <div class="project-links">
+        <a href="https://github.com/yourname/portfolio" target="_blank">GitHub</a>
+        <a href="https://yourportfolio.com" target="_blank">Live Demo</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Modal Popup for Project Details -->
+<div id="projectModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h3 id="modalTitle"></h3>
+    <img id="modalImg" src="" alt="" style="max-width: 100%; margin-bottom: 1rem;">
+    <p id="modalTech"></p>
+    <p id="modalDesc"></p>
+    <div id="modalLinks"></div>
+  </div>
+</div>
+
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  
+  <form id="contactForm">
+    <input type="text" name="from_name" placeholder="Your Name" required>
+    <input type="email" name="from_email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+    <p id="status"></p>
+  </form>
+</section>
+
+    <!-- Quick Links -->
+    <div class="contact-links">
+      <a href="mailto:ksharma66972@gmail.com" target="_blank" title="Email">
+        <img src="icons/email.svg" alt="Email">
+      </a>
+      <a href="https://github.com/kanhasharma75050" target="_blank" title="GitHub">
+        <img src="icons/github.svg" alt="GitHub">
+      </a>
+      <a href="https://www.linkedin.com/in/kanha-sharma-321092255/" target="_blank" title="LinkedIn">
+        <img src="icons/linkedin.svg" alt="LinkedIn">
+      </a>
+      <a href="tel:+917505043727" title="Phone">
+        <img src="icons/phone.svg" alt="Phone">
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Floating Hire Me Button -->
+
+
+<footer>
+  <p>© 2025 Kanha Sharma | Built with Node.js & Express</p>
+</footer>
+</div>
+<!-- Confetti library -->
+<!-- Confetti + Celebration Script -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const getStartedBtn = document.getElementById("get-started-btn");
+  const welcomeScreen = document.getElementById("welcome-screen");
+  const portfolioContent = document.getElementById("portfolio-content");
+
+  getStartedBtn.addEventListener("click", () => {
+    // Play celebration sound
+    celebrationSound.play();
+
+    // Launch confetti/balloons
+    const duration = 3 * 1000; // 3 seconds
+    const end = Date.now() + duration;
+
+    (function frame() {
+        confetti({
+            particleCount: 5,
+            angle: 60,
+            spread: 60,
+            origin: { x: 0 },
+            colors: ['#ff0a54', '#ff477e', '#ff7096', '#ff85a1', '#fbb1b9']
+        });
+        confetti({
+            particleCount: 5,
+            angle: 120,
+            spread: 60,
+            origin: { x: 1 },
+            colors: ['#0affd3', '#0aff94', '#0aff71', '#0aff4f', '#0aff2e']
+        });
+        if (Date.now() < end) requestAnimationFrame(frame);
+    })();
+
+    // Fade out welcome screen
+    welcomeScreen.classList.add("fade-out");
+
+    // Show portfolio content after fade
+    setTimeout(() => {
+        welcomeScreen.style.display = "none";
+        portfolioContent.style.display = "block";
+    }, 1000);
+  });
+});
+</script>
+
+
+<script src="script.js"></script>
+<script >
+  const roles = ["Full-Stack Developer", "MERN Enthusiast", "Problem Solver", "Tech Explorer"];
+let i = 0, j = 0, currentRole = "", isDeleting = false;
+
+function typeEffect() {
+  const typingText = document.querySelector(".typing-text");
+  if (!typingText) return;
+
+  if (isDeleting) {
+    currentRole = roles[i].substring(0, j--);
+  } else {
+    currentRole = roles[i].substring(0, j++);
+  }
+
+  typingText.textContent = currentRole;
+
+  let delay = isDeleting ? 80 : 150;
+
+  if (!isDeleting && j === roles[i].length + 1) {
+    // Finished typing word — pause before deleting
+    isDeleting = true;
+    delay = 1200; // long enough for last letter to be visible
+    j = roles[i].length; // ensure last character stays
+  } else if (isDeleting && j < 0) {
+    // Finished deleting — go to next word
+    isDeleting = false;
+    i = (i + 1) % roles.length;
+    j = 0;
+    delay = 300;
+  }
+
+  setTimeout(typeEffect, delay);
+}
+
+typeEffect();
+
+</script>
+<script>
+  // Dark/Light Mode Toggle
+const themeToggle = document.getElementById("theme-toggle");
+themeToggle.addEventListener("click", () => {
+  document.body.classList.toggle("light-mode");
+  
+  // Optional: change button text
+  if (document.body.classList.contains("light-mode")) {
+    themeToggle.textContent = "Switch to Dark Mode";
+  } else {
+    themeToggle.textContent = "Switch to Light Mode";
+  }
+});
+
+</script>
+<!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // animation duration in ms
+    once: true      // animation happens only once while scrolling
+  });
+</script>
+<script>
+  // Initialize particles.js
+  particlesJS("particles-js", {
+    "particles": {
+      "number": {"value": 60},
+      "size": {"value": 3},
+      "move": {"speed": 2},
+      "line_linked": {"enable": true, "distance": 150, "color": "#4ea8de"}
+    }
+  });
+ </script>
+ <script>
+ const hamburger = document.getElementById("hamburger");
+const navLinks = document.getElementById("nav-links");
+
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+
+// Close menu when clicking any link
+document.querySelectorAll(".nav-links li a").forEach(link => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("active");
+  });
+});
+</script>
+<!-- Include EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+
+<script>
+  contactForm.addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  // Send message to your inbox first
+  emailjs.sendForm("service_5x3rhfd", "template_yhk7kso", this)
+    .then(() => {
+      // Then send auto-reply to user
+      emailjs.sendForm("service_s66prff", "template_my0lm0c", this)
+        .then(() => {
+          status.textContent = "✅ Message sent! Confirmation email sent to you.";
+          status.style.color = "#00cc66";
+          contactForm.reset();
+        })
+        .catch((err) => {
+          status.textContent = "❌ Auto-reply failed!";
+          status.style.color = "#ff4d4d";
+          console.error("Auto-reply error:", err);
+        });
+    })
+    .catch((err) => {
+      status.textContent = "❌ Failed to send message. Try again!";
+      status.style.color = "#ff4d4d";
+      console.error("EmailJS error:", err);
+    });
+});
+
+</script>
+
+<!-- JS at the bottom -->
+// Initialize EmailJS
+ <script> 
+ emailjs.init("ZL5rpHKaYtmVlCJfA"); // Replace with your EmailJS public key
+
+// Contact form
+const contactForm = document.getElementById("contactForm");
+const status = document.getElementById("status");
+
+contactForm.addEventListener("submit", function(e) {
+  e.preventDefault(); // Prevent default form submission
+
+  // Get form values
+  const formData = {
+    name: contactForm.name.value,
+    email: contactForm.email.value,
+    message: contactForm.message.value
+  };
+  
+
+  // 1️⃣ Send message to your portfolio email
+  emailjs.sendForm("service_5x3rhfd", "template_yhk7kso", this)
+    .then(() => {
+
+      // 2️⃣ Send auto-reply to user
+      emailjs.send("service_s66prff", "template_my0lm0c", {
+        name: formData.name,
+        email: formData.email,
+        message: formData.message
+      }).then(() => {
+        // Success for auto-reply
+        console.log("✅ Auto-reply sent to user");
+      }).catch(err => {
+        console.error("❌ Auto-reply error:", err);
+      });
+
+      // 3️⃣ Update status message
+      status.innerText = "✅ Message sent successfully! You will receive a confirmation email.";
+      status.style.color = "#00cc99";
+
+      // 4️⃣ Reset form
+      contactForm.reset();
+
+    })
+    .catch(err => {
+      status.innerText = "❌ Failed to send message! Please try again.";
+      status.style.color = "#ff4d4d";
+      console.error("EmailJS error:", err);
+    });
+});
+</script>
+
+</body>
+</html>
